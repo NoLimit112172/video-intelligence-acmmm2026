@@ -15,7 +15,22 @@ if (menuButton && navigation) {
     menuButton.setAttribute("aria-expanded", String(open));
     menuButton.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
   });
-  navigation.querySelectorAll("a").forEach(link => link.addEventListener("click", closeMenu));
+  const navigationLinks = Array.from(navigation.querySelectorAll('a[href^="#"]'));
+  function selectNavigation(hash) {
+    navigationLinks.forEach(link => {
+      const selected = link.getAttribute("href") === hash;
+      link.classList.toggle("current", selected);
+      if (selected) link.setAttribute("aria-current", "location");
+      else link.removeAttribute("aria-current");
+    });
+  }
+  navigationLinks.forEach(link => link.addEventListener("click", () => {
+    // Keep the chosen underline while the pointer leaves and the page scrolls.
+    selectNavigation(link.getAttribute("href"));
+    closeMenu();
+  }));
+  window.addEventListener("hashchange", () => selectNavigation(window.location.hash));
+  selectNavigation(window.location.hash);
   document.addEventListener("keydown", event => {
     if (event.key === "Escape" && navigation.classList.contains("open")) {
       closeMenu();
@@ -25,20 +40,6 @@ if (menuButton && navigation) {
   document.addEventListener("click", event => {
     if (event.target instanceof Element && !event.target.closest(".site-header")) closeMenu();
   });
-  if ("IntersectionObserver" in window) {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        navigation.querySelectorAll("a").forEach(link => {
-          const active = link.getAttribute("href") === `#${entry.target.id}`;
-          link.classList.toggle("current", active);
-          if (active) link.setAttribute("aria-current", "location");
-          else link.removeAttribute("aria-current");
-        });
-      });
-    }, { rootMargin: "-15% 0px -65% 0px", threshold: 0 });
-    document.querySelectorAll("main section[id]").forEach(section => observer.observe(section));
-  }
 }
 
 // Pointer coordinates drive decorative layers; frames run only while easing.
