@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "title": "Foundations & Reasoning",
+      "papers": [
+        {
+          "title": "VideoQA in the Era of LLMs: An Empirical Study",
+          "authors": "Junbin Xiao et al.",
+          "venue": "IJCV",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2408.04223"
+        },
+        {
+          "title": "Qwen3-VL Technical Report",
+          "authors": "Shuai Bai et al.",
+          "venue": "arXiv",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2511.21631"
+        },
+        {
+          "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+          "authors": "Kaituo Feng et al.",
+          "venue": "NeurIPS",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2503.21776"
+        }
+      ]
+    },
+    {
+      "title": "Long & Streaming Video",
+      "papers": [
+        {
+          "title": "LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding",
+          "authors": "Xiaoqian Shen et al.",
+          "venue": "ICML",
+          "year": 2025,
+          "url": "https://proceedings.mlr.press/v267/shen25j.html"
+        },
+        {
+          "title": "Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension",
+          "authors": "Yongdong Luo et al.",
+          "venue": "NeurIPS",
+          "year": 2025,
+          "url": "https://papers.neurips.cc/paper_files/paper/2025/hash/f593c9c251d4d7cf14d4ab9861dfb7eb-Abstract-Conference.html"
+        },
+        {
+          "title": "StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant",
+          "authors": "Haibo Wang et al.",
+          "venue": "NeurIPS",
+          "year": 2025,
+          "url": "https://machinelearning.apple.com/research/proactive-streaming-assistant"
+        }
+      ]
+    },
+    {
+      "title": "Spatial & Embodied Intelligence",
+      "papers": [
+        {
+          "title": "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces",
+          "authors": "Jihan Yang et al.",
+          "venue": "CVPR",
+          "year": 2025,
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Thinking_in_Space_How_Multimodal_Large_Language_Models_See_Remember_CVPR_2025_paper.pdf"
+        },
+        {
+          "title": "EgoBlind: Towards Egocentric Visual Assistance for the Blind",
+          "authors": "Junbin Xiao et al.",
+          "venue": "NeurIPS Datasets & Benchmarks",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2503.08221"
+        },
+        {
+          "title": "OpenEQA: Embodied Question Answering in the Era of Foundation Models",
+          "authors": "Arjun Majumdar et al.",
+          "venue": "CVPR",
+          "year": 2024,
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Majumdar_OpenEQA_Embodied_Question_Answering_in_the_Era_of_Foundation_Models_CVPR_2024_paper.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Trustworthiness",
+      "papers": [
+        {
+          "title": "Can I Trust Your Answer? Visually Grounded Video Question Answering",
+          "authors": "Junbin Xiao, Angela Yao, Yicong Li & Tat-Seng Chua",
+          "venue": "CVPR",
+          "year": 2024,
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xiao_Can_I_Trust_Your_Answer_Visually_Grounded_Video_Question_Answering_CVPR_2024_paper.pdf"
+        },
+        {
+          "title": "On the Consistency of Video Large Language Models in Temporal Comprehension",
+          "authors": "Minjoon Jung, Junbin Xiao, Byoung-Tak Zhang & Angela Yao",
+          "venue": "CVPR",
+          "year": 2025,
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jung_On_the_Consistency_of_Video_Large_Language_Models_in_Temporal_CVPR_2025_paper.html"
+        }
+      ]
+    }
+  ]
+}

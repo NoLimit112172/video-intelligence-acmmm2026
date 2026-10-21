@@ -1,0 +1,72 @@
+{
+  "checked_date": "2026-10-20",
+  "speakers": [
+    {
+      "name": "Yicong Li",
+      "filename": "yicong-li.jpg",
+      "source_page": "https://yl3800.github.io/",
+      "image_url": "https://yl3800.github.io/image/profile.JPG",
+      "affiliation": "University of Science and Technology of China",
+      "title": "Professor",
+      "bio": "Yicong Li researches video and 3D scene understanding, with an emphasis on interpretability, generalization, and robustness.",
+      "current_affiliation_sources": [
+        "User-provided ACM MM 2026 tutorial PDF",
+        "https://www.comp.nus.edu.sg/~ayao/"
+      ],
+      "notes": "Correct personal website; its NUS PhD Candidate title is stale. Angela Yao official page lists Yicong Li as USTC faculty in 2026. Photo is an original 4032x3024 aquarium portrait; person is left of centre. Use CSS positioning, do not center-crop blindly."
+    },
+    {
+      "name": "Junbin Xiao",
+      "filename": "junbin-xiao.jpg",
+      "source_page": "https://faculty.ustc.edu.cn/xiaojunbin/en/index.htm",
+      "image_url": "https://faculty.ustc.edu.cn/_resources/group1/M00/00/89/wKhJFGoW3m-Ab59sAAEhiQoQf0w011.png",
+      "affiliation": "University of Science and Technology of China",
+      "title": "Professor",
+      "bio": "Junbin Xiao researches cross-modal video understanding and question answering, including temporal and spatial intelligence, streaming video, and egocentric AI assistance.",
+      "current_affiliation_sources": [
+        "https://faculty.ustc.edu.cn/xiaojunbin/zh_CN/index.htm"
+      ],
+      "notes": "USTC Chinese official title is 特任教授. Source portrait 247x297; format conversion only."
+    },
+    {
+      "name": "Angela Yao",
+      "filename": "angela-yao.jpg",
+      "source_page": "https://www.comp.nus.edu.sg/~ayao/",
+      "image_url": "https://www.comp.nus.edu.sg/~ayao/files/profilephoto.jpeg",
+      "affiliation": "National University of Singapore",
+      "title": "Dean’s Chair Associate Professor",
+      "bio": "Angela Yao works on human-centric vision and video understanding, developing contextual AI systems that perceive, reason about, and assist with human activities.",
+      "current_affiliation_sources": [
+        "https://www.comp.nus.edu.sg/~ayao/",
+        "https://www.comp.nus.edu.sg/cs/people/ayao/"
+      ],
+      "notes": "Official profile photo; format conversion only."
+    },
+    {
+      "name": "Tat-Seng Chua",
+      "filename": "tat-seng-chua.jpg",
+      "source_page": "https://www.comp.nus.edu.sg/cs/people/chuats/",
+      "image_url": "https://www.comp.nus.edu.sg/~sochr/www/stfphotos/chuats.jpg",
+      "affiliation": "National University of Singapore",
+      "title": "KITHCT Chair Professor",
+      "bio": "Tat-Seng Chua researches multimodal foundation models, responsible AI, and conversational search and recommendation. He co-directs the NUS–Tsinghua NExT research centre.",
+      "current_affiliation_sources": [
+        "https://www.comp.nus.edu.sg/cs/people/chuats/"
+      ],
+      "notes": "Source file named JPG actually contains PNG. Converted to JPEG without substantive editing."
+    },
+    {
+      "name": "Weijian Ma",
+      "filename": null,
+      "source_page": "https://nusgs.nus.edu.sg/thesis-advisors/dcscts",
+      "image_url": null,
+      "affiliation": "National University of Singapore",
+      "title": "PhD student",
+      "bio": "Weijian Ma is a PhD student at the National University of Singapore, advised by Tat-Seng Chua.",
+      "current_affiliation_sources": [
+        "https://nusgs.nus.edu.sg/thesis-advisors/dcscts"
+      ],
+      "notes": "Official NUS Graduate School advisor page lists MA WEIJIAN under current PhD students. No independently verified portrait or standalone homepage obtained. Use initials WM; do not substitute unrelated namesakes."
+    }
+  ]
+}

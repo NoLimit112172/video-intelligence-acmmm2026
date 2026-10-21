@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Video Intelligence Tutorial//ACM MM 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:video-understanding-beyond-20261110@acmmm-tutorial
+DTSTAMP:20261020T120000Z
+DTSTART:20261110T190000Z
+DTEND:20261110T210000Z
+SUMMARY:Video Understanding and Beyond - ACM MM 2026 Tutorial
+LOCATION:Rio de Janeiro\, Brazil
+DESCRIPTION:Reasoning\, Streaming\, and Spatial Intelligence.\n16:00-18:00 
+ Rio de Janeiro local time (BRT\, UTC-3).\nPreliminary order: Opening - Yic
+ ong Li\; Part I - Junbin Xiao\; Part II - Weijian Ma\; Future Directions -
+  Yicong Li. Individual session timings to be announced.
+URL:https://2026.acmmm.org/
+END:VEVENT
+END:VCALENDAR
