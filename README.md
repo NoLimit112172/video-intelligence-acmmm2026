@@ -4,7 +4,7 @@
 
 **Website:** https://nolimit112172.github.io/video-intelligence-acmmm2026/
 
-The tutorial is scheduled for **November 10, 2026, 16:00–18:00 BRT (UTC−3)** in Rio de Janeiro, Brazil. The calendar file stores the equivalent **19:00–21:00 UTC**. The program lists presentation order without individual segment times.
+The tutorial is scheduled for **November 10, 2026, 16:00–18:00 BRT (UTC−3)** in **Oceania VIII**, Rio de Janeiro, Brazil. The calendar file stores the equivalent **19:00–21:00 UTC**. The program lists presentation order without individual segment times.
 
 ## Run and publish
 
@@ -25,7 +25,7 @@ GitHub Pages publishes the root of the `main` branch. Keep `index.html`, `styles
 
 - Portraits, personal homepages, and biographies for any additional presenters; details will be added when available.
 - Final topic allocation and presentation assignments, including the closing segment.
-- The final title in the official conference program and the meeting room.
+- The final title in the official conference program.
 - Presentation slides and any recording links when available.
 
 ## Sources
