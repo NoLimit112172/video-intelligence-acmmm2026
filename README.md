@@ -23,7 +23,7 @@ GitHub Pages publishes the root of the `main` branch. Keep `index.html`, `styles
 
 ## Content still to confirm
 
-- Weijian Ma's portrait, personal homepage, and fuller biography; the page currently uses initials.
+- Portraits, personal homepages, and biographies for any additional presenters; details will be added when available.
 - Final topic allocation and presentation assignments, including the closing segment.
 - The final title in the official conference program and the meeting room.
 - Presentation slides and any recording links when available.
