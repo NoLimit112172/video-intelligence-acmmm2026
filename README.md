@@ -2,13 +2,15 @@
 
 **Reasoning, Streaming, and Spatial Intelligence** — ACM Multimedia 2026 tutorial website.
 
+**Website:** https://nolimit112172.github.io/video-intelligence-acmmm2026/
+
 The tutorial is scheduled for **November 10, 2026, 16:00–18:00 BRT (UTC−3)** in Rio de Janeiro, Brazil. The calendar file stores the equivalent **19:00–21:00 UTC**. The program lists presentation order without individual segment times.
 
 ## Run and publish
 
 This is a static HTML, CSS, and JavaScript site. **No build step, package installation, or backend is required.** Open `index.html` in a browser to preview it, or serve this directory with a static web server.
 
-For GitHub Pages, serve the repository root. Keep `index.html`, `styles.css`, `script.js`, and `assets/` together. The `.nojekyll` file lets Pages serve the files directly. No custom domain or account-specific URL is configured.
+GitHub Pages publishes the root of the `main` branch. Keep `index.html`, `styles.css`, `script.js`, and `assets/` together. The `.nojekyll` file lets Pages serve the files directly. Changes pushed to `main` update the website automatically.
 
 ## Edit the website
 
