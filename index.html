@@ -17,8 +17,7 @@
   <header class="site-header">
     <div class="nav-wrap">
       <a class="brand" href="#home" aria-label="Video Intelligence tutorial home">
-        <svg viewBox="0 0 36 36" aria-hidden="true"><rect x="3" y="4" width="23" height="23" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="10" y="11" width="23" height="23" rx="5" fill="currentColor"/><path d="m19 17 8 5-8 5z" fill="white"/></svg>
-        <span>VIDEO INTELLIGENCE<span class="brand-sub">ACM MULTIMEDIA 2026</span></span>
+        <img class="conference-logo" src="assets/acm-mm2026-logo.png" alt="ACM Multimedia 2026 — Rio de Janeiro, Brazil" width="2850" height="630">
       </a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
       <nav id="main-nav" aria-label="Main navigation">
@@ -33,6 +32,7 @@
   </header>
   <main>
     <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-photo" src="assets/rio-de-janeiro.jpg" alt="" width="3000" height="2000" fetchpriority="high" decoding="async">
       <div class="hero-grain" aria-hidden="true"></div>
       <div class="container hero-layout">
         <div class="hero-copy">
@@ -43,54 +43,6 @@
           <div class="hero-actions">
             <a class="button button-light" href="#program">Explore the program <span aria-hidden="true">↗</span></a>
           </div>
-        </div>
-        <div class="hero-art">
-          <svg viewBox="0 0 520 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Conceptual illustration of video frames, a continuous timeline, and spatial understanding">
-            <defs>
-              <linearGradient id="framefill" x2="1" y2="1"><stop stop-color="#dadaf3" stop-opacity=".19"/><stop offset="1" stop-color="#9088d0" stop-opacity=".03"/></linearGradient>
-              <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#6a62a1"/><stop offset="1" stop-color="#332c64"/></linearGradient>
-              <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#d2d2ec" opacity=".17"/></pattern>
-            </defs>
-            <rect width="520" height="480" fill="url(#grid)"/>
-            <ellipse cx="277" cy="251" rx="192" ry="180" fill="none" stroke="#b6b5d5" opacity=".16"/>
-            <ellipse cx="277" cy="251" rx="222" ry="211" fill="none" stroke="#b6b5d5" opacity=".1"/>
-            <path d="M97 137Q317 49 408 235T193 404" stroke="#bcbeea" stroke-width="1.3" fill="none" stroke-dasharray="4 7" opacity=".65"/>
-            <g class="art-reasoning" transform="translate(38 78) rotate(-9 154 100)">
-              <rect x="18" y="-17" width="286" height="183" rx="12" fill="#2c2558" stroke="#acaace" stroke-opacity=".3"/>
-              <rect x="8" y="-8" width="286" height="183" rx="12" fill="#342d66" stroke="#b7b6db" stroke-opacity=".5"/>
-              <rect width="286" height="183" rx="12" fill="url(#panel)" stroke="#c9c8e8" stroke-opacity=".8"/>
-              <path d="M0 32h286" stroke="#c9c8e8" stroke-opacity=".28"/>
-              <circle cx="16" cy="16" r="3" fill="#c1c3e9"/><circle cx="28" cy="16" r="3" fill="#c1c3e9" opacity=".5"/><circle cx="40" cy="16" r="3" fill="#c1c3e9" opacity=".25"/>
-              <text x="268" y="20" text-anchor="end" fill="#dbdcf1" font-size="9" font-family="monospace" letter-spacing="2">VIDEO INPUT</text>
-              <path d="M13 158 58 103 94 134 136 75 188 137 224 101 273 158" fill="#837eb1" opacity=".42"/>
-              <path d="M13 158 58 103 94 134 136 75 188 137 224 101 273 158" fill="none" stroke="#c0c1e7" opacity=".6"/>
-              <circle cx="223" cy="71" r="16" fill="#efb5a2" opacity=".7"/>
-              <rect x="107" y="64" width="72" height="88" rx="3" stroke="#babeec" fill="none" stroke-dasharray="4 3" opacity=".85"/>
-              <path d="m134 96 23 15-23 15z" fill="#dedff4"/>
-              <text x="15" y="174" fill="#d4d5ec" font-size="8" font-family="monospace">t = 00:00:24</text>
-              <path d="M91 170h166" stroke="#c6c7e7" stroke-opacity=".4"/><circle cx="153" cy="170" r="3" fill="#c6c7e7"/>
-            </g>
-            <g class="art-spatial" transform="translate(247 248)">
-              <rect width="221" height="168" rx="12" fill="#261e55" stroke="#b1b1d7" stroke-opacity=".8"/>
-              <rect width="221" height="168" rx="12" fill="url(#framefill)"/>
-              <text x="18" y="25" fill="#d2d3ec" font-size="9" font-family="monospace" letter-spacing="2">SPATIAL REASONING</text>
-              <path d="m42 135 67-38 74 38m-141 0 67 25 74-25M109 97v63M67 121l68 29m-46-42 70 34M64 143l69-35m-43 45 69-35" stroke="#b4b4d6" fill="none" opacity=".25"/>
-              <path d="m82 72 39-22 41 23v47l-40 23-40-24z" fill="#bdbcdc" fill-opacity=".07" stroke="#c4c5e9" stroke-width="1.3"/>
-              <path d="m82 72 40 23 40-22m-40 22v48m-1-93v45" fill="none" stroke="#c4c5e9" stroke-width="1.3"/>
-              <circle cx="122" cy="95" r="4" fill="#ffd0bd"/>
-              <path d="m122 95 54 5m-54-5-7-54m7 54-36 34" stroke="#c3c7ed" stroke-width="1.3" stroke-dasharray="3 3"/>
-              <text x="182" y="103" fill="#d2d3ec" font-size="10" font-family="monospace">x</text><text x="110" y="39" fill="#d2d3ec" font-size="10" font-family="monospace">z</text>
-            </g>
-            <g class="art-streaming" transform="translate(29 320)">
-              <text x="0" y="-8" fill="#c9cae9" font-size="9" font-family="monospace" letter-spacing="2">CONTINUOUS STREAM</text>
-              <path d="M0 25h184" stroke="#babae2" opacity=".5"/>
-              <g fill="#c1c2ea"><circle cx="9" cy="25" r="4"/><circle cx="47" cy="25" r="4"/><circle cx="85" cy="25" r="4"/><circle cx="123" cy="25" r="4"/><circle cx="161" cy="25" r="4"/></g>
-              <rect x="1" y="7" width="16" height="11" rx="2" fill="#afb0d7" opacity=".3"/><rect x="39" y="-2" width="16" height="20" rx="2" fill="#afb0d7" opacity=".45"/><rect x="77" y="-12" width="16" height="30" rx="2" fill="#afb0d7" opacity=".55"/><rect x="115" y="1" width="16" height="17" rx="2" fill="#afb0d7" opacity=".7"/><rect x="153" y="-7" width="16" height="25" rx="2" fill="#c1c2ea" opacity=".8"/>
-              <path d="m178 20 7 5-7 5" fill="none" stroke="#c1c2ea"/>
-            </g>
-            <circle cx="409" cy="163" r="29" fill="#ffc1ad"/><path d="m397 164 9 8 15-19" stroke="#2e2959" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-            <text x="410" y="209" text-anchor="middle" fill="#caccea" font-size="9" font-family="monospace" letter-spacing="1.5">PERCEIVE · REASON</text>
-          </svg>
         </div>
       </div>
       <div class="container event-strip">

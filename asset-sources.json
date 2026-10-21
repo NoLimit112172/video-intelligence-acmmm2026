@@ -1,5 +1,5 @@
 {
-  "checked_date": "2026-10-20",
+  "checked_date": "2026-10-21",
   "speakers": [
     {
       "name": "Yicong Li",
@@ -68,5 +68,29 @@
       ],
       "notes": "Official NUS Graduate School advisor page lists MA WEIJIAN under current PhD students. No independently verified portrait or standalone homepage obtained. Use initials WM; do not substitute unrelated namesakes."
     }
-  ]
+  ],
+  "conference_logo": {
+    "filename": "acm-mm2026-logo.png",
+    "source_page": "https://2026.acmmm.org/",
+    "image_url": "https://2026.acmmm.org/assets/LOGO-ACM-2026-V2.png",
+    "width": 2850,
+    "height": 630,
+    "notes": "Original official conference logo; displayed without alteration."
+  },
+  "hero_photograph": {
+    "filename": "rio-de-janeiro.jpg",
+    "source_page": "https://unsplash.com/photos/iconic-sugarloaf-mountain-overlooking-guanabara-bay-rio-de-janeiro-7UrkmddRrAU",
+    "original_image_base_url": "https://images.unsplash.com/photo-1759968623753-f62b78634503",
+    "download_url": "https://images.unsplash.com/photo-1759968623753-f62b78634503?auto=format&fit=crop&fm=jpg&q=85&w=3000",
+    "width": 3000,
+    "height": 2000,
+    "bytes": 1004260,
+    "author": "Gustavo Sanchez",
+    "author_profile": "https://unsplash.com/@gustavo0351",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "downloaded": true,
+    "visual_inspection": true,
+    "composition": "Warm sunset scene. Sugarloaf Mountain centered, a large area of cloudy sky above, bay and distant urban shoreline on left, cable car facility at lower right. Needs dark overlay for white text."
+  }
 }
