@@ -65,19 +65,22 @@
     "notes": "Original official conference logo; displayed without alteration."
   },
   "hero_photograph": {
-    "filename": "rio-de-janeiro.jpg",
-    "source_page": "https://unsplash.com/photos/iconic-sugarloaf-mountain-overlooking-guanabara-bay-rio-de-janeiro-7UrkmddRrAU",
-    "original_image_base_url": "https://images.unsplash.com/photo-1759968623753-f62b78634503",
-    "download_url": "https://images.unsplash.com/photo-1759968623753-f62b78634503?auto=format&fit=crop&fm=jpg&q=85&w=3000",
-    "width": 3000,
-    "height": 2000,
-    "bytes": 1004260,
-    "author": "Gustavo Sanchez",
-    "author_profile": "https://unsplash.com/@gustavo0351",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "downloaded": true,
+    "filename": "christ-the-redeemer.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:1_cristor_redentor_2014.jpg",
+    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/1_cristor_redentor_2014.jpg",
+    "original_width": 6432,
+    "original_height": 4300,
+    "width": 3200,
+    "height": 2139,
+    "bytes": 1884673,
+    "sha256": "790b057a2ec00780d01e46317d51c0ed1be634db5db1895f190c6ed9e7b5e412",
+    "author": "Chensiyuan",
+    "author_profile": "https://commons.wikimedia.org/wiki/User:Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_copy": "Full-resolution image supplied by the user, corresponding to the Commons photograph.",
+    "modifications": "Resized to 3200 pixels wide and encoded as progressive JPEG. Responsive cropping and dark overlay are applied in CSS.",
     "visual_inspection": true,
-    "composition": "Warm sunset scene. Sugarloaf Mountain centered, a large area of cloudy sky above, bay and distant urban shoreline on left, cable car facility at lower right. Needs dark overlay for white text."
+    "composition": "Aerial front view of Christ the Redeemer at right, with city, forested mountains and ocean behind it."
   }
 }

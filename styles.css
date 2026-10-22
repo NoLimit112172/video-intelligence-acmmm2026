@@ -140,12 +140,12 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 .hero { background: #23243f; }
 .hero-photo {
   position: absolute; inset: 0 auto 0 0; z-index: 0;
-  width: 125%; max-width: none; height: 100%;
-  object-fit: cover; object-position: center 90%; pointer-events: none;
+  width: 100%; max-width: none; height: 100%;
+  object-fit: cover; object-position: 50% 46%; pointer-events: none;
 }
 .hero-grain {
   z-index: 1;
-  background: linear-gradient(90deg, rgba(19, 24, 51, .94) 0%, rgba(25, 27, 52, .82) 28%, rgba(31, 29, 52, .37) 57%, rgba(33, 29, 49, .08) 100%),
+  background: linear-gradient(90deg, rgba(19, 24, 51, .94) 0%, rgba(25, 27, 52, .78) 32%, rgba(31, 29, 52, .25) 60%, rgba(33, 29, 49, .05) 100%),
               linear-gradient(0deg, rgba(25, 24, 48, .72) 0%, transparent 48%);
 }
 .hero-layout { display: block; }
@@ -162,13 +162,13 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 }
 @media (max-width: 850px) {
   .brand .conference-logo { width: 235px; }
-  .hero-photo { width: 135%; object-position: 55% center; }
+  .hero-photo { object-position: 65% 50%; }
 }
 @media (max-width: 600px) {
   .brand .conference-logo { width: 228px; }
-  .hero-photo { width: 100%; object-position: 53% center; }
+  .hero-photo { object-position: 69% 50%; }
   .hero-grain {
-    background: linear-gradient(90deg, rgba(19, 24, 51, .87), rgba(25, 27, 52, .53)),
+    background: linear-gradient(90deg, rgba(19, 24, 51, .88), rgba(25, 27, 52, .55)),
                 linear-gradient(0deg, rgba(25, 24, 48, .72), transparent 60%);
   }
 }
@@ -219,6 +219,8 @@ nav a { font-size: 15px; }
 .contact-event p { font-size: 15px; }
 .footer-inner, .footer-inner a, .footer-inner > a { font-size: 14px; }
 .footer-inner { flex-wrap: wrap; }
+.footer-inner .photo-credit { flex-basis: 100%; margin: 0; line-height: 1.7; }
+.photo-credit a { text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 1100px) {
   .event-strip { gap: 18px; }
   .audience { flex-wrap: wrap; }
@@ -267,6 +269,7 @@ nav a { font-size: 15px; }
 @media (max-width: 360px) {
   .nav-wrap { gap: 12px; }
   .brand .conference-logo { width: 208px; }
+  .hero-photo { object-position: 73% 50%; }
 }
 
 /* Spacious conference header and persistent navigation selection. */
